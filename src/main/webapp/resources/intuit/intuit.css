@@ -1,0 +1,12 @@
+.intuitPlatformConnectButton {
+	outline: none;
+	text-decoration: none;
+	border: none;
+	background: url(../images/connect_to_quickbooks.png) no-repeat 0 0;
+	width: 107px;
+	height: 38px;
+	display: inline-block;
+	text-indent: -9000px;
+	text-transform: capitalize;
+	border-image: initial;
+}

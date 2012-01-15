@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="customer/list" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/customer/list.jsp" />
+	</definition>
+
+	<definition name="customer/show" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/customer/show.jsp" />
+	</definition>
+
+	<definition name="customer/create" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/customer/create.jsp" />
+	</definition>
+
+	<definition name="customer/update" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/customer/update.jsp" />
+	</definition>
+
+</tiles-definitions>

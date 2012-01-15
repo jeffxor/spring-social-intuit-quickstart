@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="payment/list" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/payment/list.jsp" />
+	</definition>
+
+	<definition name="payment/show" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/payment/show.jsp" />
+	</definition>
+
+	<definition name="payment/create" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/payment/create.jsp" />
+	</definition>
+
+	<definition name="payment/update" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/payment/update.jsp" />
+	</definition>
+
+</tiles-definitions>

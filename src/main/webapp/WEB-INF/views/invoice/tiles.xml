@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<definition name="invoice/list" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/invoice/list.jsp" />
+	</definition>
+
+	<definition name="invoice/show" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/invoice/show.jsp" />
+	</definition>
+
+	<definition name="invoice/create" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/invoice/create.jsp" />
+	</definition>
+
+	<definition name="invoice/update" extends="page">
+		<put-attribute name="content" value="/WEB-INF/views/invoice/update.jsp" />
+	</definition>
+
+</tiles-definitions>

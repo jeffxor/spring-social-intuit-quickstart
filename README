@@ -1,0 +1,20 @@
+============================= Spring Social Intuit Quickstart =====================
+To check out the project and build from source, do the following:
+
+ git clone --recursive git://github.com/jeffxor/spring-social-intuit-quickstart.git
+ cd spring-social-intuit-quickstart
+ mvn clean install
+
+---------------------------------------------------------------------------------
+This will generate a war file that can then be deployed to an application server.
+
+To be able to connect to Intuit's Data Service you will need to obtain the 
+following:-
+
+intuit.apstest.consumer.key={consumer_key}
+intuit.apstest.consumer.secret={consumer_secret}
+
+and place them in the application.properties file for more information 
+visit Intuit's website at http://developer.intuit.com/
+
+=================================================================================
