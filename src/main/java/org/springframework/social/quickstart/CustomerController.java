@@ -33,7 +33,7 @@ public class CustomerController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String list(Model model) {
-		List<Customer> customers = intuit.customerOperations().getCustomers();
+		List<Customer> customers = intuit.customerOperations().getCustomers();		
 		model.addAttribute("customers", customers);
 		return "customer/list";
 	}
