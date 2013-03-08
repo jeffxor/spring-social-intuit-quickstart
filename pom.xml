@@ -9,9 +9,8 @@
 	<version>1.0.0</version>
 	<properties>
 		<java-version>1.6</java-version>
-		<!-- <org.springframework.social-version>1.0.1.BUILD-SNAPSHOT</org.springframework.social-version> -->
-		<org.springframework.social-version>1.0.2.RELEASE</org.springframework.social-version>
-		<org.springframework.social.intuit-version>2.0.0.BUILD-SNAPSHOT</org.springframework.social.intuit-version>
+		<org.springframework.social-version>1.1.0.M2</org.springframework.social-version>
+		<org.springframework.social.intuit-version>2.0.2</org.springframework.social.intuit-version>
 		<org.springframework-version>3.1.1.RELEASE</org.springframework-version>
 		<org.springframework.security.crypto-version>3.1.0.RELEASE</org.springframework.security.crypto-version>
 		<com.intuit.code.devkit.version>2.0.1</com.intuit.code.devkit.version>

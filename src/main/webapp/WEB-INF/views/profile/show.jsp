@@ -14,12 +14,12 @@
 				<td><c:out value="${profile.name}"/></td>
 			</tr>
 			<tr>
-				<td class="label">Company Id</td>
-				<td><c:out value="${profile.companyId}"/></td>
+				<td class="label">Email Address</td>
+				<td><c:out value="${profile.emailAddress}"/></td>
 			</tr>
 			<tr>
-				<td class="label">Base url</td>
-				<td><c:out value="${profile.baseUrl}"/></td>
+				<td class="label">Name</td>
+				<td><c:out value="${profile.firstName} ${profile.lastName}"/></td>
 			</tr>
 		</tbody>
 	</table>
