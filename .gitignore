@@ -7,3 +7,4 @@ target/
 .gradle
 pom.xml
 bin/
+target/
