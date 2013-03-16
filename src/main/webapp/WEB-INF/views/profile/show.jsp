@@ -5,21 +5,13 @@
 	<table>
 		<thead>
 			<tr>
-				<td colspan="2"><c:out value="${profile.name}"/></td>
+				<td colspan="2"><c:out value="${profile.firstName} ${profile.lastName}"/></td>
 			</tr>					
 		</thead>
 		<tbody>
 			<tr>
-				<td class="label">User Name</td>
-				<td><c:out value="${profile.name}"/></td>
-			</tr>
-			<tr>
-				<td class="label">Company Id</td>
-				<td><c:out value="${profile.companyId}"/></td>
-			</tr>
-			<tr>
-				<td class="label">Base url</td>
-				<td><c:out value="${profile.baseUrl}"/></td>
+				<td class="label">Screen Name</td>
+				<td><c:out value="${profile.emailAddress}"/></td>
 			</tr>
 		</tbody>
 	</table>

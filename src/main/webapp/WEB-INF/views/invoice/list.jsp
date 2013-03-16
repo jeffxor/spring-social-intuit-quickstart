@@ -18,7 +18,7 @@
 			<tbody>
 				<c:forEach items="${invoices}" var="invoice">
 					<c:set var="invoiceHeader" value="${invoice.header}"/>
-					<c:set var="invoiceLine" value="${invoice.line[0]}"/>
+					<c:set var="invoiceLine" value="${invoice.lines[0]}"/>
 				<tr>
 					<td><c:out value="${invoice.id.value}"/></td>					
 					<td><c:out value="${invoiceHeader.docNumber}"/></td>

@@ -20,11 +20,11 @@
 		</tbody>
 	</table>
 	
-	<c:forEach items="${customer.address}" var="addressItem">
+	<c:forEach items="${customer.addresses}" var="addressItem">
 		<table>
 			<thead>
 				<tr>
-					<td colspan="2">${addressItem.tag[0]} Address</td>
+					<td colspan="2">${addressItem.tags[0]} Address</td>
 				</tr>					
 			</thead>
 			<tbody>
@@ -62,7 +62,7 @@
 			</thead>
 			<tbody>
 				<c:forEach items="${payments}" var="payment">
-					<c:set var="paymentLine" value="${payment.line[0]}"/>
+					<c:set var="paymentLine" value="${payment.lines[0]}"/>
 				<tr>
 					<td><c:out value="${payment.id.value}"/></td>					
 					<td><c:out value="${payment.header.totalAmt}"/></td>
@@ -100,7 +100,7 @@
 			<tbody>
 				<c:forEach items="${invoices}" var="invoice">
 					<c:set var="invoiceHeader" value="${invoice.header}"/>
-					<c:set var="invoiceLine" value="${invoice.line[0]}"/>
+					<c:set var="invoiceLine" value="${invoice.lines[0]}"/>
 				<tr>
 					<td><c:out value="${invoice.id.value}"/></td>					
 					<td><c:out value="${invoiceHeader.docNumber}"/></td>

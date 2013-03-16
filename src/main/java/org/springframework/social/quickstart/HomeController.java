@@ -10,7 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.intuit.sb.cdm.qbo.v2.Customer;
+import com.intuit.sb.cdm.v2.Customer;
 
 /**
  * Simple little @Controller that invokes Intuit and renders the result.
