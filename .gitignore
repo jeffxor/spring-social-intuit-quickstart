@@ -1,5 +1,9 @@
-target/
 application.properties
-.classpath
-.project
+target/ 
+/.settings/
 .settings/
+.project
+.classpath
+.gradle
+pom.xml
+bin/

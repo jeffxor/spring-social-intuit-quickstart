@@ -13,5 +13,13 @@
 				<td class="label">Screen Name</td>
 				<td><c:out value="${profile.emailAddress}"/></td>
 			</tr>
+			<tr>
+				<td class="label">Name</td>
+				<td><c:out value="${profile.firstName} ${profile.lastName}"/></td>
+			</tr>
+			<tr>
+				<td class="label">Email Address</td>
+				<td><c:out value="${profile.emailAddress}"/></td>
+			</tr>
 		</tbody>
 	</table>
